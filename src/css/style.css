@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 70px;
+    align-items: center;
+    border-bottom: 1.3px black solid ;
+    
+}
+
+.logo{
+    height: 50px;
+}
+
+.menu ul, .redes ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li, .redes li{
+    color: black;
+    text-decoration: none;
+}
+
+.redes ul li{
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+a{
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color: grey;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+}
