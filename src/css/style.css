@@ -7,7 +7,7 @@ body{
 .header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 160px;
     align-items: center;
     border-bottom: 1.3px black solid ;
@@ -41,7 +41,7 @@ body{
 .redes ul li{
     cursor: pointer;
     margin: 20px;
-    padding: 10px;
+    padding: 25px;
 }
 
 
