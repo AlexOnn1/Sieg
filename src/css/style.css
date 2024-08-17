@@ -52,7 +52,42 @@ a:active{
     color: grey;
 }
 
-a:hover{
-    background-color: red;
+.works{
+    border-top: 100px;
+    margin: 30px 200px;
+}
+
+.works .container-projetos {
+	display: block;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+
+.works .projeto {
+	max-width: 400px;
+	max-height: 250px;
+    position: relative;
+}
+
+.works .projeto .informacoes-projeto {
+	background-color: #040203;
+	position: absolute;
+	width: 100em;
+	height: 100%;
+	font-weight: 600;
+	opacity: 0;
+	transition: 0.3s;
+	padding: 20px;
+    max-width: 400px;
+	max-height: 250px;
+    top: 0;
+    margin-left: 30px;
+}
+
+.works .container-projetos .projeto:hover .informacoes-projeto {
+	opacity: 0.7;
+	background-color: #000;
     color: white;
 }
