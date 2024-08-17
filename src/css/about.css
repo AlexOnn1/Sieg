@@ -4,7 +4,13 @@
     height: 800px;
 }
 
-.informacoes{
+.container-informacoes{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.informacoes, .about h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,31 +18,28 @@
     position: relative;
     z-index: -1;
     flex-direction: column;
-}
-
-.informacoes p{
-    padding: 10px 10px 3px 25px;
-    font-size: 20px;
-    text-align: justify;
-    font-weight: bold;
-    justify-content: left;
-    left: 20px;
     
 }
 
-.informacoes h1{
-    position: absolute;
-    top: 120px;
+.informacoes .texto{
+    padding: 10px 10px 3px 25px;
+    font-size: 1.3rem;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 2.2em;
+    margin-top: 10px;
+}
+
+.about h1{
     justify-content: center;
-    font-size: 50px;
-    margin-top: 3px;
-    margin-bottom: 0px;
+    font-size: 5rem;
     font-weight: bolder;
 }
 
-.informacoes .contato{
-    position: absolute;
+.contato{
+    display: flex;
+    color: #E2E2B6;
+    justify-content: center;
     bottom: 5em;
-    margin: 15px;
-    margin-left: 19em;
+    margin-top: 5em;
 }
