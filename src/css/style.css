@@ -1,6 +1,7 @@
 body{
     height: 1500px;
     padding-top: 100px;
+    background-color: #021526;
 }
 
 .header{
@@ -12,7 +13,7 @@ body{
     border-bottom: 1.3px black solid ;
     position: fixed;
     width: 100%;
-    background-color: white;
+    background-color: #021526;
     top: 0;
     z-index: 1;
 }
@@ -27,7 +28,7 @@ body{
 }
 
 .menu li, .redes li{
-    color: black;
+    color: #6EACDA;
     text-decoration: none;
     font-size: 27px;
     font-weight: bold;
@@ -48,11 +49,11 @@ a{
     cursor: pointer;
     margin: 20px;
     padding: 10px;
-    color: black;
+    color: #6EACDA;
 }
 
 a:visited{
-    color: black;
+    color: #6EACDA;
 }
 
 a:active{
@@ -60,13 +61,13 @@ a:active{
 }
 
 a:hover{
-    color: darkgray;
+    color: #E2E2B6;
     transition: 0.6s;
     font-size: 32px;
 }
 
 .fa-x-twitter:hover, .fa-behance:hover, .fa-linkedin:hover, .fa-instagram:hover{
-    color: darkgray;
+    color: #E2E2B6;
     transition: 0.6s;
     transform: scale(1.3)
 }
