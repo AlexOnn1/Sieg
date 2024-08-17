@@ -104,6 +104,8 @@ a:hover{
     max-width: 950px;
 	max-height: 650px;
     top: 0;
+    text-align: center;
+    align-content: center;
 }
 
 .works .container-projetos .projeto:hover .informacoes-projeto {
