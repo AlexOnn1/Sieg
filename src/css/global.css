@@ -81,17 +81,4 @@ a:hover{
     flex-wrap: wrap;
 }
 
-.rodape .redes{
-    position: absolute;
-    right: 3rem;
-}
-
-.rodape .redes ul{
-    gap: 3rem;
-}
-
-.rodape .redes li{
-    font-size: 1rem;
-    color: #656548;
-}
 
