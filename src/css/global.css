@@ -23,7 +23,11 @@ body{
 }
 
 .logo{
-    height: 50px;
+    height: 100%;
+}
+
+.menu ul li{
+    font-size: 20px;    
 }
 
 .menu ul, .redes ul{
@@ -34,7 +38,7 @@ body{
 .menu li, .redes li{
     color: #6EACDA;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -44,13 +48,13 @@ body{
 
 .header .redes ul li{
     cursor: pointer;
-    margin: 20px;
-    padding: 25px;
+    margin: 10px;
+    padding: 20px;
 }
 
 .menu a{
     cursor: pointer;
-    margin: 20px;
+    margin: 13px;
     padding: 10px;
     color: #6EACDA;
 }

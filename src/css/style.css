@@ -1,19 +1,18 @@
 .works{
-    border-top: 100px;
-    margin: 60px 0px;
+    margin: 60px 0px 10px 0px;
 }
 
 .works .container-projetos {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 10px;
-	justify-content: center;
     flex-direction: row;
     gap: 10px;
+	justify-content: center;
 }
 
 .works .projeto {
-	max-width: 950px;
+	max-width: 49%;
 	max-height: 650px;
     position: relative;
 }
@@ -27,7 +26,7 @@
 	opacity: 0;
 	transition: 0.3s;
 	padding: 20px;
-    max-width: 950px;
+    max-width: 100%;
 	max-height: 650px;
     top: 0;
     text-align: center;
