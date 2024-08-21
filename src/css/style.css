@@ -11,8 +11,13 @@
 	justify-content: center;
 }
 
+.works .projeto img{
+	width: 48vw;
+	height: 650px;
+}
+
 .works .projeto {
-	max-width: 49%;
+	max-width: 49vw;
 	max-height: 650px;
     position: relative;
 }
@@ -23,6 +28,7 @@
 	width: 100em;
 	height: 100%;
 	font-weight: bold;
+	font-size: 1.2rem;
 	opacity: 0;
 	transition: 0.3s;
 	padding: 20px;
