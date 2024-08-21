@@ -1,0 +1,18 @@
+.container-studies{
+    margin: 1em 25vw;
+}
+
+.studies{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;       
+}
+
+.studies a, .studies img{
+    height: 200px;
+    gap: 10px;
+    padding: 0px;
+    margin: 0.5px;
+
+}
