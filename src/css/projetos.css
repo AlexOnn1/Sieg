@@ -1,0 +1,36 @@
+.projeto{
+    color: #ECDFCC;
+    padding: 1.5em;
+}
+
+.projeto h1{
+    text-align: center;
+}
+
+.projeto .info{
+    display: flex;
+    padding: 3em;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto .info p{
+    width: 70%;
+}
+
+.projeto .info img{
+    height: 30em;
+}
+
+.projeto .info a{
+    color: #938c80;
+}
+
+.projeto .info a:hover{
+    color: #ECDFCC;
+    font-size: 1.1em;
+
+}
+
