@@ -34,3 +34,49 @@
 
 }
 
+@media(max-width: 550px){
+
+    .projeto .info img{
+        height: 20em;
+    }
+
+    .projeto h1{
+        font-size: 1.3rem;
+    }
+
+    .projeto .info p{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 460px){
+
+    .projeto .info img{
+        height: 15em;
+    }
+
+    .projeto h1{
+        font-size: 1.3rem;
+    }
+
+    .projeto .info p{
+        width: 90%;
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 370px){
+
+    .projeto .info img{
+        height: 10em;
+    }
+
+    .projeto h1{
+        font-size: 1rem;
+    }
+
+    .projeto .info p{
+        width: 100%;
+        font-size: 0.6rem;
+    }
+}
