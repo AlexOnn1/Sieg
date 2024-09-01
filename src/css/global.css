@@ -35,13 +35,14 @@ body{
 
 .menu ul li{
     font-size: 1.3rem;
+    padding: 0.5rem;
 }
 
 .menu .redes li{
     cursor: pointer;
     color: #ECDFCC;
     font-size: 2.2rem;
-    padding: 2rem;
+    padding: 1rem;
     text-decoration: none;
 }
 
