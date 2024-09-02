@@ -157,3 +157,8 @@
         height: 800px;
     }
 }
+
+span{
+    text-decoration: none;
+    text-transform: none;
+}
