@@ -53,6 +53,7 @@
     }
 
     .foto{
+        max-height: 400px;
         max-width: 300px;
     }
 
@@ -81,6 +82,7 @@
     }
 
     .foto{
+        max-height: 400px;
         max-width: 300px;
     }
 
@@ -113,6 +115,7 @@
     }
 
     .foto{
+        max-height: 400px;
         max-width: 300px;
     }
 
