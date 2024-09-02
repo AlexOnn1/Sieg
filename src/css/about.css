@@ -3,6 +3,12 @@
     padding: 20px;
     height: 700px;
     gap: 4em;
+    align-items: center;
+}
+
+.foto{
+    max-height: 600px;
+    max-width: 600px;
 }
 
 .container-informacoes{
@@ -53,7 +59,7 @@
     }
 
     .foto{
-        max-height: 400px;
+        max-height: 300px;
         max-width: 300px;
     }
 
@@ -82,7 +88,7 @@
     }
 
     .foto{
-        max-height: 400px;
+        max-height: 300px;
         max-width: 300px;
     }
 
@@ -115,7 +121,7 @@
     }
 
     .foto{
-        max-height: 400px;
+        max-height: 300px;
         max-width: 300px;
     }
 
