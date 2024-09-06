@@ -10,9 +10,14 @@
 }
 
 .studies a, .studies img{
-    height: 200px;
-    gap: 10px;
+    gap: 0.3rem;
     padding: 0px;
     margin: 0.5px;
 
+}
+
+@media(max-width: 950px){
+    .studies{
+        gap: 0.1rem;
+    }
 }
