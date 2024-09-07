@@ -65,10 +65,6 @@ a:hover{
     transition: 0.6s;
 }
 
-#about{
-    color: #697565;
-}
-
 .fa-x-twitter:hover, .fa-behance:hover, .fa-linkedin:hover, .fa-instagram:hover{
     color: #697565;
     transition: 0.6s;
