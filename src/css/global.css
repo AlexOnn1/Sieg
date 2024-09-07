@@ -40,7 +40,7 @@ body{
 
 .menu .redes li{
     cursor: pointer;
-    color: #ECDFCC;
+    color: #ffffff;
     font-size: 2.2rem;
     padding: 1rem;
     text-decoration: none;
@@ -50,7 +50,7 @@ body{
     cursor: pointer;
     margin: 13px;
     padding: 10px;
-    color: #ECDFCC;
+    color: #ffffff;
 }
 
 a:hover{
@@ -95,7 +95,7 @@ a:hover{
     
     .menu .redes li{
         cursor: pointer;
-        color: #ECDFCC;
+        color: #ffffff;
         font-size: 1.3rem;
         padding: 1rem;
         text-decoration: none;
@@ -105,7 +105,7 @@ a:hover{
         cursor: pointer;
         margin: 9px;
         padding: 6px;
-        color: #ECDFCC;
+        color: #ffffff;
     }
     
     a:hover, .redes li a:hover{
