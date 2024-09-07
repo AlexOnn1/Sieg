@@ -6,6 +6,7 @@
     align-items: center;
 }
 
+
 .foto{
     max-height: 600px;
     max-width: 600px;
@@ -25,16 +26,18 @@
     position: relative;
     z-index: 0;
     flex-direction: column;
-    
+    font-family: "Rubik", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .informacoes .texto{
     padding: 10px 10px 3px 25px;
-    font-size: 0.8rem;
-    text-align: justify;
-    font-weight: bold;
+    font-size: 1.1rem;
+    font-weight: 999999;
     line-height: 2.2em;
     margin-top: 10px;
+    text-transform: none;
+    font-family: "Rubik", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .about h1{
@@ -48,7 +51,7 @@
     color: #ffffff;
     justify-content: center;
     bottom: 5em;
-    margin-top: 4em;
+    margin-top: 2.5em;
 }
 
 @media(max-width:1300px){
