@@ -11,7 +11,7 @@
 	justify-content: center;
 }
 
-.works .projeto img{
+.works .projeto img, video{
 	width: 40em;
 	height: 35em;
 }
@@ -39,7 +39,8 @@
 .works .container-projetos .projeto:hover .informacoes-projeto, .works .container-projetos .projeto:hover {
 	opacity: 0.7;
 	background-color: #000;
-    color: white;
+    color: rgb(255, 255, 255);
+	font-weight: bolder;
 }
 
 .card-projeto:hover{
@@ -47,7 +48,7 @@
 }
 
 @media(max-width: 850px){
-	.works .projeto img{
+	.works .projeto img, video{
 		max-width: 20em;
 		max-height: 15em;
 	}
