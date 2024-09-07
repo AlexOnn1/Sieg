@@ -1,19 +1,26 @@
 .container-studies{
-    margin: 1em 25vw;
+    margin: 1em 7vw;
 }
 
 .studies{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;       
+    align-items: stretch;    
+    gap: 0.15rem;   
+    align-items: center;
 }
 
 .studies a, .studies img{
-    gap: 0.3rem;
     padding: 0px;
-    margin: 0.5px;
+    margin: 0.11em;
+    max-width: 20em;
 
+}
+
+.none{
+    max-height: 10em;
+    max-width: 40em;
 }
 
 @media(max-width: 950px){
