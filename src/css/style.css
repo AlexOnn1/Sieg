@@ -1,17 +1,18 @@
-.works{
-    margin: 30px 0px 10px 0px;
+.works {
+	margin: 30px 0px 10px 0px;
 }
 
 .works .container-projetos {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 10px;
-    flex-direction: row;
-    gap: 10px;
+	flex-direction: row;
+	gap: 10px;
 	justify-content: center;
 }
 
-.works .projeto img, video{
+.works .projeto img,
+video {
 	width: 40em;
 	height: 35em;
 }
@@ -19,7 +20,7 @@
 .works .projeto {
 	width: 40em;
 	height: 35em;
-    position: relative;
+	position: relative;
 }
 
 .works .projeto .informacoes-projeto {
@@ -29,42 +30,46 @@
 	font-size: 1.2rem;
 	opacity: 0;
 	transition: 0.3s;
-    width: 40rem;
+	width: 40rem;
 	height: 35rem;
-    top: 0;
-    text-align: center;
-    align-content: center;
+	top: 0;
+	text-align: center;
+	align-content: center;
 }
 
-.works .container-projetos .projeto:hover .informacoes-projeto, .works .container-projetos .projeto:hover {
+.works .container-projetos .projeto:hover .informacoes-projeto,
+.works .container-projetos .projeto:hover {
 	opacity: 0.7;
 	background-color: #000;
-    color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 	font-weight: bolder;
 }
 
-.card-projeto:hover{
+.card-projeto:hover {
 	font-size: 100%;
 }
 
-@media(max-width: 850px){
-	.works .projeto img, video{
+@media(max-width: 850px) {
+
+	.works .projeto img,
+	video {
 		max-width: 20em;
 		max-height: 15em;
 	}
-	
+
 	.works .projeto {
 		max-width: 20em;
 		max-height: 15em;
 	}
-	
+
 	.works .projeto .informacoes-projeto {
 		font-size: 1rem;
 		max-width: 20em;
 		max-height: 15em;
 	}
 
-	.informacoes-projeto h3, .informacoes-projeto p{
+	.informacoes-projeto h3,
+	.informacoes-projeto p {
 		margin-top: 0;
 		text-align: center;
 		font-size: 0.4rem;

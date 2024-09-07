@@ -1,16 +1,16 @@
-.projeto{
+.projeto {
     color: #ffffff;
     padding: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.projeto h1{
+.projeto h1 {
     text-align: center;
     font-size: 0.95rem;
 }
 
-.projeto .info{
+.projeto .info {
     display: flex;
     padding: 3em;
     flex-direction: column;
@@ -19,100 +19,100 @@
     align-items: center;
 }
 
-.video{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.projeto .info p{
+.projeto .info p {
     width: 70%;
     font-size: 0.7rem;
     text-align: center;
 }
 
-.container-video{
+.container-video {
     position: relative;
     height: 30em;
     width: 60em;
 }
 
-.projeto .info .video{
+.projeto .info .video {
     height: 30em;
 }
 
-.projeto .info a{
+.projeto .info a {
     color: #ffffff;
 }
 
-.projeto .info a:hover{
+.projeto .info a:hover {
     color: #ECDFCC;
     font-size: 1.1em;
 
 }
 
-@media(max-width: 970px){
+@media(max-width: 970px) {
 
-    .projeto .info .video{
+    .projeto .info .video {
         height: 20em;
     }
 
-    .container-video{
+    .container-video {
         position: relative;
         height: 15em;
         width: 30em;
     }
-    
 
-    .projeto h1{
+
+    .projeto h1 {
         font-size: 1.3rem;
     }
 
-    .projeto .info p{
+    .projeto .info p {
         font-size: 0.8rem;
     }
 }
 
-@media(max-width: 570px){
+@media(max-width: 570px) {
 
-    .projeto .info .video{
+    .projeto .info .video {
         height: 9em;
         width: 18em;
     }
 
-    .container-video{
+    .container-video {
         position: relative;
         height: 9em;
         width: 18em;
     }
 
-    .projeto h1{
+    .projeto h1 {
         font-size: 1.3rem;
     }
 
-    .projeto .info p{
+    .projeto .info p {
         width: 90%;
         font-size: 0.8rem;
     }
 }
 
-@media(max-width: 370px){
+@media(max-width: 370px) {
 
-    .projeto .info{
+    .projeto .info {
         padding: 0.6em;
     }
 
-    .projeto .info .video{
+    .projeto .info .video {
         height: 8em;
     }
 
-    .projeto h1{
+    .projeto h1 {
         font-size: 1.3rem;
     }
 
-    .projeto .info p{
+    .projeto .info p {
         width: 100%;
         font-size: 0.45rem;
     }
