@@ -57,7 +57,7 @@
     margin-top: 2.5em;
 }
 
-@media(max-width:1300px){
+@media(max-width:1500px){
     .about{
         height: 500px;
         gap: 2em;
@@ -65,8 +65,8 @@
     }
 
     .foto{
-        max-height: 300px;
-        max-width: 300px;
+        max-height: 400px;
+        max-width: 400px;
     }
 
     .informacoes .texto{
