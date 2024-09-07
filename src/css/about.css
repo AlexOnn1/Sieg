@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #E2E2B6;
+    color: #ffffff;
     position: relative;
     z-index: 0;
     flex-direction: column;
@@ -45,7 +45,7 @@
 
 .contato{
     display: flex;
-    color: #E2E2B6;
+    color: #ffffff;
     justify-content: center;
     bottom: 5em;
     margin-top: 4em;
