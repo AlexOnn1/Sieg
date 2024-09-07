@@ -40,7 +40,7 @@
     font-family: "Rubik", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: justify;
     width: 58em;
-
+    padding: 1rem;
 }
 
 .about h1{
@@ -76,6 +76,7 @@
         font-weight: bold;
         line-height: 2.2em;
         margin-top: 10px;
+        width: 47em;
     }
     
     .about h1{
@@ -105,6 +106,7 @@
         font-weight: bold;
         line-height: 2.2em;
         margin-top: 10px;
+        width: 40em;
     }
     
     .about h1{
@@ -138,6 +140,7 @@
         font-weight: bold;
         line-height: 1.6em;
         margin-top: 10px;
+        width: 35em;
     }
     
     .about h1{
