@@ -34,10 +34,12 @@
     padding: 10px 10px 3px 25px;
     font-size: 1.1rem;
     font-weight: 999999;
-    line-height: 2.2em;
+    line-height: 1.8em;
     margin-top: 10px;
     text-transform: none;
     font-family: "Rubik", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+    width: 58em;
 
 }
 
