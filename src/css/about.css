@@ -33,14 +33,13 @@
 
 .informacoes .texto {
     padding: 10px 10px 3px 25px;
-    font-size: 1.1rem;
-    font-weight: 999999;
+    font-weight: bolder;
     line-height: 1.8em;
     margin-top: 10px;
     text-transform: none;
     font-family: "Rubik", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: justify;
-    width: 58em;
+    width: 45em;
     padding: 1rem;
 }
 
@@ -58,7 +57,7 @@
     margin-top: 2.5em;
 }
 
-@media(max-width:1500px) {
+@media(max-width:1100px) {
     .about {
         height: 500px;
         gap: 2em;
@@ -118,6 +117,7 @@
 
     .contato {
         margin-top: 1em;
+        font-size: 0.6rem;
     }
 
 }
@@ -189,20 +189,19 @@
         height: 800px;
     }
 
-
-}
-
-.informacoes .texto {
-    padding: 5px 5px 0px 5px;
-    font-size: 0.55rem;
-    text-align: justify;
-    font-weight: bold;
-    line-height: 1.6em;
-    margin-top: 10px;
-    width: 35em;
-}
-
-span {
-    text-decoration: none;
-    text-transform: none;
+    .informacoes .texto {
+        padding: 5px 5px 0px 5px;
+        font-size: 0.55rem;
+        text-align: justify;
+        font-weight: bold;
+        line-height: 1.6em;
+        margin-top: 10px;
+        width: 35em;
+    }
+    
+    span {
+        text-decoration: none;
+        text-transform: none;
+    }
+    
 }
