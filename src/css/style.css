@@ -51,20 +51,19 @@ video {
 
 @media(max-width: 950px) {
 
-	.works .projeto img,
-	video {
-		max-width: 20em;
+	.works .projeto img{
+		max-width: 19em;
 		max-height: 15em;
 	}
 
 	.works .projeto {
-		max-width: 20em;
+		max-width: 19em;
 		max-height: 15em;
 	}
 
 	.works .projeto .informacoes-projeto {
 		font-size: 1rem;
-		max-width: 20em;
+		max-width: 19em;
 		max-height: 15em;
 		text-align: center;
 		align-items: center;
