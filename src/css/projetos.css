@@ -12,7 +12,7 @@
 
 .projeto .info {
     display: flex;
-    padding: 3em;
+    padding: 1.5em;
     flex-direction: column;
     gap: 2em;
     justify-content: center;
@@ -29,8 +29,9 @@
 
 .projeto .info p {
     width: 70%;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: center;
+    text-transform: none;
 }
 
 .container-video {
