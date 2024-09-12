@@ -4,7 +4,7 @@
 }
 
 body {
-    padding-top: 7rem;
+    padding-top: 5.2rem;
     background-color: #000;
 }
 
@@ -79,9 +79,14 @@ a:hover {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
-    height: 100px;
+    height: auto;
+    max-height: 1.2rem;
     align-items: center;
     flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 
@@ -142,10 +147,15 @@ a:hover {
         flex-direction: column;
     }
 
+    .menu ul li {
+        font-size: 0.6rem;
+        padding: 0.5rem;
+    }
+
     a:hover,
     .redes li a:hover {
         color: #697565;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         transition: 0.6s;
     }
 }
