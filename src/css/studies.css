@@ -12,7 +12,8 @@
 }
 
 .studies a,
-.studies img, .studies iframe{
+.studies img,
+.studies iframe {
     padding: 0px;
     margin: 0.11em;
     max-width: 20em;

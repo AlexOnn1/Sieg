@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     height: 700px;
     gap: 4em;
     align-items: center;
@@ -54,22 +54,22 @@
     color: #ffffff;
     justify-content: center;
     bottom: 5em;
-    margin-top: 2.5em;
+    margin-top: 0.3rem;
 }
 
-@media(max-width:1303px){
+@media(max-width:1303px) {
 
     .foto {
         max-height: 500px;
         max-width: 500px;
     }
 
-    .informacoes .texto{
+    .informacoes .texto {
         font-size: 0.8rem;
         padding: 1.5rem;
     }
 
-    .about{
+    .about {
         gap: 3rem;
         padding: 10px;
     }
@@ -216,10 +216,10 @@
         margin-top: 10px;
         width: 35em;
     }
-    
+
     span {
         text-decoration: none;
         text-transform: none;
     }
-    
+
 }
