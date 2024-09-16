@@ -57,7 +57,25 @@
     margin-top: 2.5em;
 }
 
-@media(max-width:1100px) {
+@media(max-width:1303px){
+
+    .foto {
+        max-height: 500px;
+        max-width: 500px;
+    }
+
+    .informacoes .texto{
+        font-size: 0.8rem;
+        padding: 1.5rem;
+    }
+
+    .about{
+        gap: 3rem;
+        padding: 10px;
+    }
+}
+
+@media(max-width:1125px) {
     .about {
         height: 500px;
         gap: 2em;
