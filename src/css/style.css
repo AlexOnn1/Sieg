@@ -23,7 +23,7 @@ video {
 	position: relative;
 }
 
-.works .projeto .informacoes-projeto {
+.works .projeto .informacoes-projeto{
 	background-color: #040203;
 	position: absolute;
 	font-weight: bold;
@@ -34,8 +34,24 @@ video {
 	height: 35rem;
 	top: 0;
 	text-align: center;
-	align-content: center;
+	align-content: center; 
+	z-index: 3;
 }
+
+.works .projeto .gif{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40rem;
+	height: 35rem;
+	opacity: 0;
+}
+
+.works .projeto:hover .gif{
+	opacity: 1;	
+}
+
+
 
 .works .container-projetos .projeto:hover .informacoes-projeto,
 .works .container-projetos .projeto:hover {
@@ -48,6 +64,8 @@ video {
 .card-projeto:hover {
 	font-size: 100%;
 }
+
+
 
 @media(max-width: 950px) {
 
