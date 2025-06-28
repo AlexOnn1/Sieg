@@ -1,10 +1,10 @@
-# Portfólio Gilmar (SIEG)
+# Portfólio SIEG
 
 ## Português
 
 ### Descrição Geral
 
-Este projeto é um portfólio digital desenvolvido para apresentar os principais trabalhos, estudos e informações profissionais de Gilmar (SIEG), Motion Designer especializado em animação 2D para Broadcast, Publicidade e Design Digital. O site foi construído com foco em responsividade, acessibilidade e organização de conteúdo, visando facilitar a navegação de recrutadores, clientes e parceiros.
+Este projeto é um portfólio digital desenvolvido para apresentar os principais trabalhos, estudos e informações profissionais de Sieg (SIEG), Motion Designer especializado em animação 2D para Broadcast, Publicidade e Design Digital. O site foi construído com foco em responsividade, acessibilidade e organização de conteúdo, visando facilitar a navegação de recrutadores, clientes e parceiros.
 
 ---
 
@@ -157,7 +157,7 @@ Sieg/
 
 ### General Description
 
-This project is a digital portfolio developed to showcase the main works, studies, and professional information of Gilmar (SIEG), a Motion Designer specialized in 2D animation for Broadcast, Advertising, and Digital Design. The website was built with a focus on responsiveness, accessibility, and content organization, aiming to facilitate navigation for recruiters, clients, and partners.
+This project is a digital portfolio developed to showcase the main works, studies, and professional information of Sieg, a Motion Designer specialized in 2D animation for Broadcast, Advertising, and Digital Design. The website was built with a focus on responsiveness, accessibility, and content organization, aiming to facilitate navigation for recruiters, clients, and partners.
 
 ---
 
